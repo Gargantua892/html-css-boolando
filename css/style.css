@@ -1,0 +1,124 @@
+/* ---------------------------- Regole generali ----------------------- */
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin:0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    display: inline-block;
+}
+
+.none{
+    display: none;
+}
+
+/* Regole struttura */
+
+.w-40{
+    width: 40%;
+    padding: 10px;
+}
+
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/* Regole flex */
+.space-between{
+    justify-content: space-between;
+ }
+
+ .row{
+    display: flex;
+ }
+
+.row .col img{
+    width: 100%;
+    height: auto;
+}
+
+.flex-center-x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ------------------------------------ navbar ------------------------------------ */
+header{
+    background-color: #ff6a01;
+    color: #fff;
+}
+
+nav img{
+    max-width: 120px;
+}
+
+nav, .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* nav ul{
+    flex-basis: 30%;
+ } */
+
+ nav li{
+
+    float: left;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+
+/* ------------------------------------ Article ------------------------------------ */
+article{
+    position: relative;
+}
+article img{
+    width: 100%;
+}
+
+article .img-container{
+    position: relative;
+}
+
+.discount{
+    background-color: red;
+    padding: 2px 8px;
+    margin-right: 4px;
+}
+
+.eco{
+    background-color: green;
+    padding: 2px 8px;
+}
+
+.tag{
+    position: absolute;
+    bottom: 50px;
+}
+
+article i{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+article h3{
+    margin: 0px;
+    text-transform: uppercase;
+}
