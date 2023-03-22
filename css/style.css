@@ -122,3 +122,15 @@ article h3{
     margin: 0px;
     text-transform: uppercase;
 }
+
+.img-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-hover:hover {
+    opacity: 1;
+}
